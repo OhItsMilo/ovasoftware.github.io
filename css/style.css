@@ -397,11 +397,17 @@ p {
 	font-weight: normal;
 	color: #333;
 }
+#nav {
+
+}
 #nav li ul {
 	display: none;
 	position: absolute;
 	color: #003F5E;
 	text-decoration: none;
+	padding-top: 10px;
+	float:none;
+	z-index: 2;
 }
 #nav li:hover > ul {
 	display: block;
