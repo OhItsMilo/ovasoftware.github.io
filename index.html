@@ -1,9 +1,180 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+
+<style>
+	html{
+		scroll-behavior: smooth;
+	}
+	body{
+		font-family: 'Lato';
+		margin: 0;
+		padding: 0;
+	}
+div {
+  
+  padding: 10px;
+}
+
+div.first {
+  opacity: 1;
+   background-image: url('Imagenes/fondo0.png');
+   position: relative;
+
+}
+
+div.second {
+  width: 900px;
+  background-color: rgba(0,0,0,0.5);;
+
+
+}
+
+div.content{
+	color: white;
+}
+input{
+	border-radius: 10px;
+	 padding: 15px;
+	 margin-left: 10px;
+}
+p{
+	margin: 0;
+}
+img{
+	display: block;
+	margin-left: 0;
+	margin-right: auto;
+}
+.gfg { 
+      border-collapse:separate; 
+      border-spacing:0 15px; 
+     }
+.ofertaBtn{
+	background-color: rgba(157,11,14,1);
+	width: 100%;
+	padding: 15px;
+	color: white;
+	text-align: center;
+	font-family: 'Lato';
+	font-size: 30px;
+	border: none;
+opacity: 1;
+  transition: 0.3s;
+}
+.ofertaBtn:hover{
+	background-color: red;
+	opacity: 0.9;
+}
+.compramos{
+	background-color: rgb(240, 226, 226); 
+	height: 250px;
+	width: 900px;
+	padding-top: 50px;
+	padding-left: 20px;
+	padding-right: 50px;
+}
+.compramosBtn{
+	background-color: rgba(157,11,14,1);
+	width: 400px;
+	padding: 5px;
+	color: white;
+	text-align: top;
+	font-family: 'Lato';
+	font-size: 20px;
+	border-radius: 10px;
+	transition: 0.2s;
+}
+.compramosBtn:hover{
+	background-color: red;
+	opacity: 0.9;
+}
+.contactenos{
+	height: 200px;
+	background-color: rgba(157,11,14,1);
+	color: white;
+	
+}
+.filter{
+	filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(17deg) brightness(104%) contrast(104%);
+	padding-left: 140px;
+	
+}
+
+</style>
 </head>
 <body>
 
+<div class="first">
+	<center>
+		
+		<div class="second" >
+		<div class="content">
+			<img src="Imagenes/logo fondo negro0.png" alt="Girl in a jacket" width="200" height="200">
+				<p style="font-size: 50px"><b>COMPRAMOS TU CASA EN EFECTIVO</b></p>
+				<p style="font-size: 30px">completa el formulario, y recibe una oferta al instante.</p>
+	<table class="gfg">
+		<tr>
+			<td><input type="" name="" placeholder="Primer Nombre" size="50">  <input type="" name="" placeholder="Apellido" size="50"></td>
+		</tr>
+		<tr>
+			<td><input type="text" name="Direccion" size="70" placeholder="Dirección"><input type="text" name="" placeholder="Zip Code"></td>
+		</tr>
+		<tr>
+			<td>
+				<input type="text" name="email" placeholder="Email" size="50">
+				<input type="text" name="telefono" placeholder="Telefono" size="50">
+			</td>
+		</tr>
+		<tr>
+			<td><button class="ofertaBtn">Obten tu oferta</button></td>
+		</tr>
+	</table>
+	</center>
+		</div>
+
+</div>
+</div>
+<br>
+<center>
+<img src="Imagenes/fondo1.png" width="100%">
+</center>
+<center>
+	<div class="compramos">
+		<center>
+		<table style="border-collapse:separate; ">
+			<tr>
+				<td width="550px"> <p style="font-size: 40px;" align="left"><b>¿Necesitas vender<br>
+				tu casa lo antes posible?</b></p>
+					
+				</td>
+				<td rowspan="3"><img src="Imagenes/home0.png" ></td>
+			</tr>
+			<tr>
+				<td><p style="font-size: 25px" align="left">Solicita informacion sin compromiso</p></td>
+			</tr>
+			<tr><td>
+				<button class="compramosBtn" onclick="window.location.href='#'">Compramos su casa al contado</button>
+			</td></tr>
+		</table>
+</center>
+	</div>
+</center>
+<br>
+<div class="contactenos">
+	<center>
+	<table>
+		<tr><td colspan="2" style="font-size: 40px; text-align: center;">TIENE MAS PREGUNTAS?</td></tr>
+		<tr><td colspan="2" style="font-size: 30px; text-align: center;">No dude en contactar nuestro Centro de Asistencia</td></tr>
+<tr>
+		<td><img src="Imagenes/envelope-regular.svg" width="30" height="30" class="filter"></td><td style="font-size: 30px;">innovativehomein@gmail.com</td>
+		</tr>
+		<tr>
+		<td><img src="Imagenes/phone-alt-solid.svg" width="30" height="30" class="filter"></td><td style="font-size: 30px;"> +1 8325186089</td>
+		</tr>
+	</table>
+	</center>
+</div>
 </body>
 </html>
